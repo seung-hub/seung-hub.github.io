@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+*{
+    margin:5px;
+    padding: 0;
+    background-color: rgb(244, 244, 185);
+}
+#top_menu li{
+    display: inline;
+    font-size: 15px;
+}
+#top_menu li a{
+    text-decoration: none;
+    color:blue;
+    cursor:pointer;
+    margin-right:10px;
+}
+#top_menu li a:hover{
+    color:red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#top_menu li a:active{
+    color:#00ffff;
+}
+ul{
+    list-style-type: none;
+}
+#menu{
+    width:500px;
+    padding:10px;
+    margin:20px 0 0 20px;
+    text-align: center;
+}
+#menu li{
+    display: inline;
+}
+.image {
+    margin-top: 10px;
+}
+p{
+    width:550px;
+    padding: 10px;
+    margin: 10px 0 0 20px;
+    background-color: white;
+    border:solid 1px #aaaaaa;
+}
+.subject{
+    font-weight: bold;
+    font-size: 20px;
+}
+.price{
+    color:blue;
+}
+.best_box{
+    display: inline-block;
+    text-align:center;
+    margin-left:10px;
+}
+.comment{
+    font-size: 15px;
+}
+.bread li{
+    list-style-image: url("bread.png");
+    margin-left:20px;
+}
+</style>
+</head>
+<body>
+<ul id="top_menu">
+    <li><a href="book_banner1.html">기본값 적용된 마진,패딩 책 소개</a>|</li>
+    <li><a href="book_banner2.html">마진,패딩 초기화한 책 소개</a>|</li>
+    <li><a href="book_banner3.html">마진,패딩 지정 책 소개</a>|</li>
+    <li><a href="inline_block.html">인라인과 블록+display 속성</a>|</li>
+    <li><a href="v_menu.html">블록 방식으로 메뉴 수직 나열+인라인과 블록 특성</a>|</li>
+</ul>
+<ul id="menu">
+    <li>성심당 소개 |</li>
+    <li>BEST 빵 소개 |</li>
+    <li>체인점 안내 |</li>
+    <li>성심당 역사</li>
+</ul>
+<div class="image">
+<img src="visit1.jpg" width="650">
+</div>
+<h1>+성심당</h1>
+<h2>1. 성심당 소개</h2>
+<p>성심당은 전국 어디에도 없고 오직 대전에만 있는 베이커리다. 대전에 방문하면 성심당을 들려야 한다는 말이 있을 정도로 전국적인 인기를 끌고 있다.</p>
+
+<h2>2. BEST 빵 소개</h2>
+<div class="best_box">
+<ul>
+    <li><img src="best1.png" width="200"></li>
+    <li class="subject">튀김 소보로</li>
+    <li class="comment">팥소가 들어간 소보로빵을 <br>기름에 넣고 튀긴 빵</li>
+    <li class="price">1,700원</li>
+</ul>
+</div>
+<div class="best_box">
+<ul>
+    <li><img src="best2.png" width="200"></li>
+    <li class="subject">판타롱 부추빵</li>
+    <li class="comment"> 빵 안에 부추와 계란, <br>햄을 넣어 만든 빵</li>
+    <li class="price">2,000원</li>
+</ul>
+</div>
+<div class="best_box">
+<ul>
+    <li><img src="best3.png" width="200"></li>
+    <li class="subject">보문산 메아리</li>
+    <li class="comment">한겹 한겹 보드라운 빵결에 <br>골드럼 시럽이 첨가된 빵</li>
+    <li class="price">6,000원</li>
+</ul>
+</div>
+<h2>3. 체인점 안내</h2>
+<ul class="bread">
+    <li>성심당 본점 - 대전 중구 은행동 145</li>
+    <li>성심당 롯데백화점 대전점 - 대전 서구 괴정동 423-1</li>
+    <li>성심당 DCC점 - 대전 유성구 도룡동 4-19</li>
+    <li>성심당 대전역점 - 대전 동구 정동 1-1</li>
+</ul>
+<h2>4. 성심당 역사</h2>
+<p>성심당 창업주 임길순, 한순덕 부부는 함경남도 함주 고향으로 1950년 한국전쟁 중 흥남부두 철수작전 마지막 피난민을 싣은 메러디스빅토리호에 기적적으로 몸을 싣어, 잠시 거제도에 머문 뒤 진해에 정착했다.<br>
+    이후 서울로 이주하고자 열차를 타고 이동하던 중 열차 고장으로 의도치 않게 대전에 머물게 되었고 대흥동 성당에서 원조 받은 밀가루 두 포대로 대전역 앞에서 찐빵집을 시작 오늘날의 성심당이 되었다.<br>
+    ‘우리 가족이 살아 돌아간다면, 남은 인생은 어려운 이웃을 위해 살겠습니다'라는 창업주의 기도를 따라 나눔 정신을 실천하며 대전 시민의 자부심과 사랑으로 성장하여 대전의 향토기업이 되었다.</p>
+</body>
+</html>
